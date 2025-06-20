@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="Pages\MaintPage\PumpCalibration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\MaintPage\TestVolume.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Settings\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SyncDatetime\SyncDateTime.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\FooterControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
