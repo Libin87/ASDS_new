@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-20T12:29:11.342</Modified>
+      <Modified>2025-06-25T04:32:31.281</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-06-20T12:29:11.192</Modified>
+      <Modified>2025-06-25T04:32:31.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ASDS_dev.runtimeconfig.json">
       <PackagePath>ASDS_dev.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ASDS_dev.dll">
       <PackagePath>ASDS_dev.dll</PackagePath>
-      <Modified>2025-06-20T12:29:11.129</Modified>
+      <Modified>2025-06-25T04:32:31.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ASDS_dev.exe</PackagePath>
-      <Modified>2025-06-20T12:29:11.129</Modified>
+      <Modified>2025-06-25T04:32:31.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mactu\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
@@ -1088,11 +1088,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\MaintCnt1.png">
       <PackagePath>Assets\MaintCnt1.png</PackagePath>
-      <Modified>2025-06-20T10:42:13.734</Modified>
+      <Modified>2025-06-23T09:29:53.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\MaintCnt3.png">
       <PackagePath>Assets\MaintCnt3.png</PackagePath>
       <Modified>2025-06-20T10:42:13.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP1.png">
+      <PackagePath>Assets\PP1.png</PackagePath>
+      <Modified>2025-06-24T08:00:13.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP2.png">
+      <PackagePath>Assets\PP2.png</PackagePath>
+      <Modified>2025-06-24T08:01:02.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP3.png">
+      <PackagePath>Assets\PP3.png</PackagePath>
+      <Modified>2025-06-24T08:02:36.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP4.png">
+      <PackagePath>Assets\PP4.png</PackagePath>
+      <Modified>2025-06-24T08:08:20.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -1129,6 +1145,10 @@
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\test1.jpg">
       <PackagePath>Assets\test1.jpg</PackagePath>
       <Modified>2025-06-20T10:42:13.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\Valve.png">
+      <PackagePath>Assets\Valve.png</PackagePath>
+      <Modified>2025-06-24T06:42:35.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>

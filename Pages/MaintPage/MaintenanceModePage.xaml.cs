@@ -20,9 +20,6 @@ using Windows.Foundation.Collections;
 
 namespace ASDS_dev.Pages.MaintPage
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MaintenanceModePage : Page
     {
         private bool isOn = false;

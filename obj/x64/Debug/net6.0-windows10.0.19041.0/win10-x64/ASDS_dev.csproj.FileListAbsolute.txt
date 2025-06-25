@@ -362,3 +362,4 @@ D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x
 D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Pages\MaintPage\TestVolume.xbf
 D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Pages\MaintPage\PumpCalibration.xbf
 D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Pages\MaintPage\TestVolume.xbf
+D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ASDS_dev.sourcelink.json

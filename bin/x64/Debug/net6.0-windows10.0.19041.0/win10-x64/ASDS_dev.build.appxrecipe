@@ -820,6 +820,18 @@
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\MaintCnt3.png">
       <PackagePath>Assets\MaintCnt3.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP1.png">
+      <PackagePath>Assets\PP1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP2.png">
+      <PackagePath>Assets\PP2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP3.png">
+      <PackagePath>Assets\PP3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\PP4.png">
+      <PackagePath>Assets\PP4.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -846,6 +858,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\test1.jpg">
       <PackagePath>Assets\test1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\Valve.png">
+      <PackagePath>Assets\Valve.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>

@@ -1,30 +1,84 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
+using Microsoft.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml.Shapes;
+using Windows.Foundation;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
-namespace ASDS_dev.Pages.MaintPage;
-
-/// <summary>
-/// An empty page that can be used on its own or navigated to within a Frame.
-/// </summary>
-public sealed partial class PumpCalibration : Page
+namespace ASDS_dev.Pages.MaintPage
 {
-    public PumpCalibration()
+    public sealed partial class PumpCalibration : Page
     {
-        InitializeComponent();
+        private bool isPlaying = false;
+
+        public PumpCalibration()
+        {
+            this.InitializeComponent();
+            UpdateIcon();
+        }
+
+        private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
+        {
+            isPlaying = !isPlaying;
+            UpdateIcon();
+        }
+
+        private void UpdateIcon()
+        {
+            IconShape.Children.Clear();
+            ButtonText.Text = isPlaying ? "Pause" : "Run 1 Min";
+            IconShape.Children.Add(isPlaying ? CreatePauseIcon() : CreatePlayIcon());
+        }
+
+        private UIElement CreatePlayIcon()
+        {
+            return new Path
+            {
+                Data = new PathGeometry
+                {
+                    Figures =
+                    {
+                        new PathFigure
+                        {
+                            StartPoint = new Point(0, 0),
+                            IsClosed = true,
+                            Segments =
+                            {
+                                new LineSegment { Point = new Point(0, 20) },
+                                new LineSegment { Point = new Point(17, 10) }
+                            }
+                        }
+                    }
+                },
+                Fill = new SolidColorBrush(Colors.LightGray)
+            };
+        }
+
+        private UIElement CreatePauseIcon()
+        {
+            return new StackPanel
+            {
+                Orientation = Orientation.Horizontal,
+                Children =
+                {
+                    new Rectangle { Width = 5, Height = 20, Fill = new SolidColorBrush(Colors.LightGray), Margin = new Thickness(2,0,2,0) },
+                    new Rectangle { Width = 5, Height = 20, Fill = new SolidColorBrush(Colors.LightGray), Margin = new Thickness(2,0,2,0) }
+                }
+            };
+        }
+
+
+
+
+
+
+
+
+        private void MntnsPage(object sender, RoutedEventArgs e)
+        {
+            App.RootFrame.Navigate(typeof(ASDS_dev.Pages.MaintPage.MaintenanceModePage), null,
+                new SuppressNavigationTransitionInfo());
+        }
     }
 }
