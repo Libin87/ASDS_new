@@ -4,6 +4,8 @@ using ASDS_dev.Pages.UserManagement;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using ASDS_dev.ViewModels;
+using ASDS_dev.Pages.Reports.Controls; 
+
 
 namespace ASDS_dev.Pages.LoginPage
 {
@@ -18,10 +20,7 @@ namespace ASDS_dev.Pages.LoginPage
         {
             this.Frame.Navigate(typeof(ASDS_dev.Pages.ChangePswd));
         }
-        private void Signup_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ASDS_dev.Pages.Register));
-        }
+
 
         private async void Login_click(object sender, RoutedEventArgs e)
         {
@@ -47,14 +46,27 @@ namespace ASDS_dev.Pages.LoginPage
                 await ShowDialog("Access Denied", "Your account is Blocked. Please contact admin.");
                 return;
             }
-            LoginButton.Visibility = Visibility.Collapsed;
-            
-            usernameBox.Text = $"User: {SessionManager.CurrentUsername}";
 
+
+            var audit = new AuditEvent
+            {
+                EventTime = DateTime.Now,
+                EventType = 1, 
+                UserId = userId,
+                UserName = userId, 
+                EventMessage = "Login Successful",
+                RemarksAdded = 0
+            };
+
+            AuditLogger.LogEvent(audit); 
+
+           
+            LoginButton.Visibility = Visibility.Collapsed;
             SessionManager.CurrentUsername = userId;
             Frame.Navigate(typeof(HomePage.HomePage));
             await ShowDialog("Login Successful", $"Welcome back, {userId}!");
         }
+
 
 
         private async Task ShowDialog(string title, string message)
@@ -71,7 +83,7 @@ namespace ASDS_dev.Pages.LoginPage
         }
         private void Home_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ASDS_dev.Pages.HomePage.HomePage)); // Change `MainWindow` to your actual home page class
+            Frame.Navigate(typeof(ASDS_dev.Pages.HomePage.HomePage));
         }
 
 

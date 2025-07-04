@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-04T10:01:33.010</Modified>
+      <Modified>2025-07-04T12:54:08.535</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\ASDS_dev.dll">
       <PackagePath>ASDS_dev.dll</PackagePath>
-      <Modified>2025-07-04T10:01:32.830</Modified>
+      <Modified>2025-07-04T12:54:08.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>ASDS_dev.exe</PackagePath>
-      <Modified>2025-07-04T10:01:32.835</Modified>
+      <Modified>2025-07-04T12:54:08.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mactu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

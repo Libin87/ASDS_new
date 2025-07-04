@@ -1,10 +1,11 @@
-﻿using ASDS_dev.ViewModels;
+﻿using System;
+using ASDS_dev.Pages.Reports.Controls;
+using ASDS_dev.ViewModels;
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
-using System;
 using Windows.Graphics;
 
 namespace ASDS_dev
@@ -22,6 +23,8 @@ namespace ASDS_dev
 
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
+
+            AuditLogger.InitializeDatabase();
             m_window = new MainWindow();
 
             RootFrame = new Frame();
