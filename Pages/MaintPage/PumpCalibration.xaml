@@ -8,20 +8,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:ASDS_dev.Controls"
     mc:Ignorable="d">
-    <Grid Background="Orange">
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <!-- Header -->
             <RowDefinition Height="*"/>
-            <!-- Main Content -->
             <RowDefinition Height="Auto"/>
-            <!-- Footer -->
         </Grid.RowDefinitions>
 
-        <!-- Header Control -->
         <controls:HeaderControl Grid.Row="0" />
-
-        <!-- Main content placeholder -->
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="55"/>
@@ -40,10 +34,7 @@
                    Text="Pump Calibration" />
 
                     <Grid Width="370" Height="30" Margin="80,0,0,0" HorizontalAlignment="Left">
-                        <!-- Background Rectangle -->
                         <Rectangle Fill="#5f327d" RadiusX="4" RadiusY="4"/>
-
-                        <!-- Text on top -->
                         <TextBlock Text="System Ready For Dispensing Solution"
                Foreground="White"
                FontSize="18"
@@ -67,51 +58,51 @@
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0" >
                     <StackPanel Orientation="Vertical">
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,80,4,0" TextAlignment="Right">Divosan</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Bio SP Base</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Bio SP Activator</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Extran</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,54,4,22" TextAlignment="Right">IPA</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Water For Line 1</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Water For Line 2</TextBlock>
-                        <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="0,32,4,0" TextAlignment="Right">Water For Line 3</TextBlock>
+                        <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="0,80,4,0" TextAlignment="Right">Divosan</TextBlock>
+                        <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="0,34,4,0" TextAlignment="Right">Bio SP Base</TextBlock>
+                        <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="0,34,4,0" TextAlignment="Right">Bio SP Activator</TextBlock>
+                        <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="0,36,4,0" TextAlignment="Right">Extran</TextBlock>
+                        <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="0,57,4,22" TextAlignment="Right">IPA</TextBlock>
+                        <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="0,35,4,0" TextAlignment="Right">Water For Line 1</TextBlock>
+                        <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="0,35,4,0" TextAlignment="Right">Water For Line 2</TextBlock>
+                        <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="0,35,4,0" TextAlignment="Right">Water For Line 3</TextBlock>
                     </StackPanel>
                 </Grid>
                 <Grid Grid.Column="1" >
                     <StackPanel Orientation="Vertical">
-                        <TextBlock FontWeight="Bold" FontSize="25" Foreground="DeepSkyBlue" Margin="0,25,4,0" TextAlignment="Center">Previous Reading</TextBlock>
+                        <TextBlock FontWeight="SemiBold" FontSize="25" Foreground="DeepSkyBlue" Margin="0,25,4,0" TextAlignment="Center">Previous Reading</TextBlock>
 
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,43,5,27"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,44,4,12" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,43,5,27"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,44,4,12" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="29,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
 
                     </StackPanel>
@@ -120,39 +111,39 @@
 
                 <Grid Grid.Column="2" Margin="35,0,0,0">
                     <StackPanel Orientation="Vertical">
-                        <TextBlock FontWeight="Bold" FontSize="25" Foreground="DeepSkyBlue" Margin="0,25,4,0" TextAlignment="Center">New Reading</TextBlock>
+                        <TextBlock FontWeight="SemiBold" FontSize="25" Foreground="DeepSkyBlue" Margin="0,25,4,0" TextAlignment="Center">New Reading</TextBlock>
 
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,17"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,32,14,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,17"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,14,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,31,5,27"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,32,4,12" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,31,5,27"></TextBox>
+                            <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="5,32,4,12" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock  FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBox CornerRadius="4" Background="#dbdbdb" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
-                            <TextBlock FontWeight="Bold" FontSize="19" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
+                            <TextBox CornerRadius="4" Background="White" BorderBrush="Orange" BorderThickness="2"  Width="120" HorizontalAlignment="Center" TextAlignment="Center" Margin="13,21,5,5"></TextBox>
+                            <TextBlock FontSize="17" Foreground="DeepSkyBlue" Margin="5,22,4,0" >ml</TextBlock>
                         </StackPanel>
 
                     </StackPanel>
@@ -162,12 +153,9 @@
                     <StackPanel Orientation="Vertical">
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,79,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -176,12 +164,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -190,12 +175,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -204,12 +186,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -218,12 +197,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,45,4,22">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -232,12 +208,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -246,12 +219,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -260,12 +230,9 @@
                         </Button>
                         <Button Background="#1E3C72" BorderBrush="Gray" BorderThickness="1" Padding="10,5" CornerRadius="4" Height="35" Width="150" Margin="0,23,4,0">
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- Tick inside box icon (custom drawn with Path or use a Symbol/Icon) -->
                                 <Viewbox Width="24" Height="24" Margin="0,0,10,0">
                                     <Canvas Width="24" Height="24">
-                                        <!-- Checkbox outline -->
                                         <Rectangle Width="20" Height="20" Stroke="Orange" StrokeThickness="2" />
-                                        <!-- Checkmark -->
                                         <Path Data="M 4 10 L 9 15 L 16 6" Stroke="Orange" StrokeThickness="2" StrokeLineJoin="Round" />
                                     </Canvas>
                                 </Viewbox>
@@ -363,7 +330,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" FontSize="20" HorizontalAlignment="Right" FontWeight="Bold" Margin="0,20,20,0">
+                    <TextBlock Grid.Row="0" FontSize="20" HorizontalAlignment="Right" FontWeight="Bold" Margin="0,25,20,0">
         <Run Text="Air : " Foreground="DeepSkyBlue"/>
         <Run x:Name="AirPressureValue" Text="4.3" Foreground="Orange"/>
         <Run Text=" Bar" Foreground="DeepSkyBlue"/>
@@ -383,31 +350,27 @@
                                 <Grid Width="33" Height="33">
                                     <Image Source="/Assets/Valve.png"></Image>
                                 </Grid>
-                                <TextBlock Text="V1" Foreground="DeepSkyBlue" FontWeight="Bold" FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="V1" Foreground="DeepSkyBlue"  FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal" Margin="0,25,0,0">
                                 <Grid Width="33" Height="33">
                                     <Image Source="/Assets/Valve.png"></Image>
                                 </Grid>
-                                <TextBlock Text="V2" Foreground="DeepSkyBlue" FontWeight="Bold" FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="V2" Foreground="DeepSkyBlue" FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal" Margin="0,25,0,7">
                                 <Grid Width="33" Height="33">
                                     <Image Source="/Assets/Valve.png"></Image>
-                                    <!--
-<Polygon Points="14,0 0,14 28,14" Stroke="Red" StrokeThickness="2" Fill="Transparent"/>
-<Polygon Points="0,14 28,14 14,28" Stroke="Red" StrokeThickness="2" Fill="Transparent"/>
--->
-
                                 </Grid>
-                                <TextBlock Text="V3" Foreground="DeepSkyBlue" FontWeight="Bold" FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                <TextBlock Text="V3" Foreground="DeepSkyBlue"  FontSize="19" VerticalAlignment="Center" Margin="10,0,0,0"/>
                             </StackPanel>
                         </StackPanel>
-                        <Button Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#1E3C72" Margin="20,20,20,15" CornerRadius="2" Click="MntnsPage">
+                        <Button Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#1E3C72" Margin="20,28,20,7" CornerRadius="2" Click="MntnsPage">
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
-                                <FontIcon Glyph="&#xE770;" FontFamily="Segoe MDL2 Assets" Foreground="Orange" FontSize="17" Margin="0,0,10,0"/>
+                                
+                                <FontIcon Glyph="&#xEC7A;" FontSize="20"  Margin="0,0,10,0" Foreground="Orange"/>
                                 <Polygon Points="10,0 0,10 10,20" Fill="LimeGreen" Width="10" Height="20" Margin="0,0,10,0"/>
                                 <TextBlock Text="Back" Foreground="White" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
                             </StackPanel>

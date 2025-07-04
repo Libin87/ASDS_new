@@ -200,8 +200,8 @@ namespace ASDS_dev.Pages.UserManagement
             {
                 try
                 {
-                    UserDatabase.DeleteUser(user.UserId);   // Delete from database
-                    Users.Remove(user);                     // Remove from ObservableCollection
+                    UserDatabase.DeleteUser(user.UserId);  
+                    Users.Remove(user);                    
                 }
                 catch (Exception ex)
                 {

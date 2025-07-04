@@ -19,15 +19,34 @@
             <RowDefinition Height="Auto"/>
             <!-- Footer -->
         </Grid.RowDefinitions>
-
         <!-- Header Control -->
         <controls:HeaderControl Grid.Row="0" />
-
-        <!-- Main content placeholder -->
         <Grid Grid.Row="1">
-            <!-- Add your page-specific content here -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid x:Name="SidebarGrid" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition x:Name="SidebarColumn" Width="150" />
+                        <ColumnDefinition Width="32" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel x:Name="Sidebar" Grid.Column="0" Background="#c9c9c9">
+                        <Button Content="Audit"  FontWeight="SemiBold" Background="#1E3C72" Foreground="White" Tag="Audit" Margin="10" CornerRadius="2" BorderThickness="0" Width="115" HorizontalAlignment="Center" Click="SidebarButton_Click"/>
+                        <Button Content="Events" FontWeight="SemiBold" Background="#1E3C72" Foreground="White" Tag="Events" Margin="10" CornerRadius="2" BorderThickness="0" Width="115" HorizontalAlignment="Center" Click="SidebarButton_Click"/>
+                        <Button Content="Users"  FontWeight="SemiBold" Background="#1E3C72" Foreground="White" Tag="Users" Margin="10" CornerRadius="2" BorderThickness="0" Width="115" HorizontalAlignment="Center"  Click="SidebarButton_Click"/>
+                        <Button Content="Alarm"  FontWeight="SemiBold" Background="#1E3C72" Foreground="White" Tag="Alarm" CornerRadius="2" BorderThickness="0" Margin="10" Width="115" HorizontalAlignment="Center" Click="SidebarButton_Click"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Background="#c9c9c9" HorizontalAlignment="Center" Height="3000" VerticalAlignment="Top">
+                        <ToggleButton x:Name="ToggleSidebar" Content="☰" FontSize="24" Background="Transparent" BorderThickness="0" Foreground="Black" FontWeight="Bold"
+                 Padding="0" Margin="5" Click="ToggleSidebar_Click" HorizontalAlignment="Center" VerticalAlignment="Top" FocusVisualPrimaryThickness="0" FocusVisualSecondaryThickness="0"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+            <Grid x:Name="ContentArea" Grid.Column="1">
+            </Grid>
         </Grid>
-
         <!-- Footer Control -->
         <controls:FooterControl Grid.Row="2" />
     </Grid>

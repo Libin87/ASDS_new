@@ -21,7 +21,7 @@ namespace ASDS_dev.Pages.UserManagement
 
     internal class UserDatabase
     {
-        private static readonly string dbPath = @"D:\Harshitha\ASDS\ASDS.db";
+        private static readonly string dbPath = @"D:\ASDS_DB\ASDS.db";
         private static readonly object dbLock = new object();
 
         public static void InitializeDatabase()

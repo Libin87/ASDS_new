@@ -2,29 +2,31 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <None Update="App.xaml">
-      <SubType>Designer</SubType>
-    </None>
-    <Page Update="Pages\MaintPage\PumpCalibration.xaml">
+    <Page Update="Pages\Reports\Controls\Alarm.xaml">
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\Reports\Controls\Events.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\Reports\Controls\Users.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\Reports\Controls\Audit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="Pages\MaintPage\TestVolume.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pages\Settings\Settings.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Pages\SyncDatetime\SyncDateTime.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Controls\FooterControl.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <None Update="Package.appxmanifest">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
 </Project>

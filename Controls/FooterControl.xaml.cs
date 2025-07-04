@@ -60,15 +60,11 @@ namespace ASDS_dev.Controls
         }
         private void UserManagementModeButton_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
+            
                 App.RootFrame.Navigate(typeof(ASDS_dev.Pages.UserManagement.UserManagement), null,
                 new SuppressNavigationTransitionInfo());
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine("Navigation error: " + ex.Message);
-            }
+           
+            
         }
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {

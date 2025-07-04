@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\New folder\\ASDS_dev\\ASDS_dev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\maintpage\\maintenancemodepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\maintpage\\maintenancemodepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\usermanagement\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\usermanagement\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\maintpage\\pumpcalibration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\maintpage\\pumpcalibration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\reports\\controls\\audit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\reports\\controls\\audit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\maintpage\\pumpcalibration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\maintpage\\pumpcalibration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\reports\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\reports\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\reports\\controls\\audit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\reports\\controls\\audit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|d:\\new folder\\asds_dev\\asds_dev\\pages\\reports\\reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5074A3E9-F83E-4177-B7D9-F2A3D992D563}|ASDS_dev.csproj|solutionrelative:pages\\reports\\reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,52 +30,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDatabase.cs",
+              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\UserManagement\\UserDatabase.cs",
+              "RelativeDocumentMoniker": "Pages\\UserManagement\\UserDatabase.cs",
+              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\UserManagement\\UserDatabase.cs",
+              "RelativeToolTip": "Pages\\UserManagement\\UserDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:56:58.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MaintenanceModePage.xaml.cs",
-              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\MaintenanceModePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MaintPage\\MaintenanceModePage.xaml.cs",
-              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\MaintenanceModePage.xaml.cs",
-              "RelativeToolTip": "Pages\\MaintPage\\MaintenanceModePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Reports.xaml.cs",
+              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Reports.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Reports\\Reports.xaml.cs",
+              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Reports.xaml.cs",
+              "RelativeToolTip": "Pages\\Reports\\Reports.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T06:15:54.063Z",
+              "WhenOpened": "2025-07-04T07:41:08.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PumpCalibration.xaml.cs",
-              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\PumpCalibration.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MaintPage\\PumpCalibration.xaml.cs",
-              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\PumpCalibration.xaml.cs",
-              "RelativeToolTip": "Pages\\MaintPage\\PumpCalibration.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwE8AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:19:01.625Z"
+              "Title": "Reports.xaml",
+              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Reports.xaml",
+              "RelativeDocumentMoniker": "Pages\\Reports\\Reports.xaml",
+              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Reports.xaml",
+              "RelativeToolTip": "Pages\\Reports\\Reports.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-04T07:37:18.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PumpCalibration.xaml",
-              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\PumpCalibration.xaml",
-              "RelativeDocumentMoniker": "Pages\\MaintPage\\PumpCalibration.xaml",
-              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\MaintPage\\PumpCalibration.xaml",
-              "RelativeToolTip": "Pages\\MaintPage\\PumpCalibration.xaml",
-              "ViewState": "AgIAANUAAAAAAAAAAAAAAOUAAAAtAAAAAAAAAA==",
+              "Title": "Audit.xaml.cs",
+              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Controls\\Audit.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Reports\\Controls\\Audit.xaml.cs",
+              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Controls\\Audit.xaml.cs",
+              "RelativeToolTip": "Pages\\Reports\\Controls\\Audit.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:31:36.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Audit.xaml",
+              "DocumentMoniker": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Controls\\Audit.xaml",
+              "RelativeDocumentMoniker": "Pages\\Reports\\Controls\\Audit.xaml",
+              "ToolTip": "D:\\New folder\\ASDS_dev\\ASDS_dev\\Pages\\Reports\\Controls\\Audit.xaml",
+              "RelativeToolTip": "Pages\\Reports\\Controls\\Audit.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwDEAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-20T11:00:49.373Z",
+              "WhenOpened": "2025-07-02T09:15:11.802Z",
               "EditorCaption": ""
             }
           ]

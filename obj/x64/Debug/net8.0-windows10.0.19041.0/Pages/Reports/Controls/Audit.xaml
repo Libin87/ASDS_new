@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="ASDS_dev.Pages.Reports.Controls.Audit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ASDS_dev.Pages.Reports.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:ASDS_dev.Pages.Reports"
+
+    
+
+ 
+
+    mc:Ignorable="d">
+
+    <Grid Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions >
+
+        <Grid Grid.Row="0" Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Audit View"
+               Foreground="Green"  FontSize="20" FontWeight="Bold" Margin="10,0"/>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10">
+
+                <StackPanel>
+                    <TextBlock Text="From Date" FontSize="14" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <CalendarDatePicker x:ConnectionId='19' x:Name="FromDatePicker" Background="White" BorderBrush="#1E3C72" BorderThickness="1" CornerRadius="4"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Text="From Time" FontSize="14" FontWeight="SemiBold"  Margin="0,0,0,5"/>
+                    <TimePicker x:ConnectionId='18' x:Name="FromTimePicker" Background="White" BorderBrush="#1E3C72" BorderThickness="1" CornerRadius="9"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Text="To Date" FontSize="14" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <CalendarDatePicker x:ConnectionId='17' x:Name="ToDatePicker" Background="White" BorderBrush="#1E3C72" BorderThickness="1" CornerRadius="4"/>
+                </StackPanel>
+                <StackPanel>
+                    <TextBlock Text="To Time" FontSize="14" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TimePicker x:ConnectionId='16' x:Name="ToTimePicker" Background="White" BorderBrush="#1E3C72" BorderThickness="1" CornerRadius="4"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,22,0,0" Spacing="10" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button Width="90" Height="35" Background="#1E3C72" BorderBrush="White" BorderThickness="1">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <FontIcon Glyph="&#xE749;" FontSize="16" Foreground="Gold" Margin="4"/>
+                            <TextBlock Foreground="White" FontSize="10" VerticalAlignment="Center">
+    <Run Text="Generate"/>
+    <LineBreak/>
+    <Run Text="Report"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="90" Height="35" Background="#1E3C72" BorderBrush="White" BorderThickness="1">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <FontIcon Glyph="&#xE8A5;" FontSize="16" Foreground="Gold"/>
+                            <TextBlock  Margin="5,0,0,0" Foreground="White" FontSize="10" VerticalAlignment="Center" >
+                                        <Run Text="Report" />
+                                <LineBreak/>
+                                <Run Text="Viewer" />
+                            </TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button Width="90" Height="35" Background="#1E3C72" BorderBrush="White" BorderThickness="1">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <FontIcon Glyph="&#xE895;" FontSize="16" Foreground="Gold"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="10" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" Text="Filter : " />
+                <ComboBox Grid.Row="0" Margin="200,0,0,0" CornerRadius="4" VerticalAlignment="Center" Width="280" SelectedIndex="0">
+                    <ComboBoxItem Content="Username"/>
+                    <ComboBoxItem Content="UserId"/>
+                    <ComboBoxItem Content="Operation"/>
+                </ComboBox>
+                <AutoSuggestBox x:ConnectionId='15' x:Name="SearchBox" PlaceholderText="Search..."                                                                               Width="300" Margin="10"/>
+                <Button Background="White" Foreground="White" BorderThickness="0" Height="40" Width="43" CornerRadius="20">
+                    <FontIcon Glyph="&#xE721;" FontSize="26" Foreground="Gray" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+           
+            <Grid Grid.Row="0" Background="#1E3C72" Padding="8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="230"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Record ID" Grid.Column="0" Foreground="White" FontWeight="Bold"/>
+                <TextBlock Text="Timestamp" Grid.Column="1" Foreground="White" FontWeight="Bold"/>
+                <TextBlock Text="UserName" Grid.Column="2" Foreground="White" FontWeight="Bold"/>
+                <TextBlock Text="Operation" Grid.Column="3" Foreground="White" FontWeight="Bold"/>
+                <TextBlock Text="Status" Grid.Column="4" Foreground="White" FontWeight="Bold"/>
+                <TextBlock Text="Information" Grid.Column="5" Foreground="White" FontWeight="Bold"/>
+            </Grid>
+
+       
+            <GridView x:ConnectionId='6' x:Name="AuditGridView"
+              Grid.Row="1"
+              IsItemClickEnabled="False"
+              SelectionMode="None"
+              Background="#f5f5f5"
+              ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <GridView.ItemTemplate>
+                    <DataTemplate                               >
+                        <Grid x:ConnectionId='8' Background="#f5f5f5" Padding="8" HorizontalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="230"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="190"/>
+                                <ColumnDefinition Width="140"/>
+                                <ColumnDefinition Width="250"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock x:ConnectionId='9'                          Grid.Column="0"/>
+                            <TextBlock x:ConnectionId='10'                           Grid.Column="1"/>
+                            <TextBlock x:ConnectionId='11'                          Grid.Column="2"/>
+                            <TextBlock x:ConnectionId='12'                           Grid.Column="3"/>
+                            <TextBlock x:ConnectionId='13'                        Grid.Column="4"/>
+                            <TextBlock x:ConnectionId='14'                             Grid.Column="5"/>
+                        </Grid>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </Grid>
+
+
+
+
+
+        <Grid Grid.Row="3" Margin="10">
+            <StackPanel  Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10" Spacing="20">
+                <Button x:ConnectionId='3' x:Name="PrevPageButton" Content="&#xE72B;" FontFamily="Segoe MDL2 Assets" 
+             Width="40" Height="40" Background="White"/>
+                <TextBlock x:ConnectionId='4' x:Name="PageInfoText" Text="Page 1 of 1" FontWeight="SemiBold" FontSize="14" VerticalAlignment="Center"/>
+                <Button x:ConnectionId='5' x:Name="NextPageButton" Content="&#xE72A;" FontFamily="Segoe MDL2 Assets" 
+             Width="40" Height="40" Background="White"/>
+            </StackPanel>
+            <Button x:ConnectionId='2' HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Background="#1E3C72"
+            CornerRadius="2"
+                              >
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <FontIcon Glyph="&#xE9D2;" FontSize="20" Margin="0,0,10,0" Foreground="Orange"/>
+                    <Polygon Points="10,0 0,10 10,20" Stroke="LimeGreen" StrokeThickness="2" Fill="Transparent" Width="10" Height="20" Margin="0,0,10,0"/>
+                    <TextBlock Text="Back" Foreground="White" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+
+    </Grid>
+</UserControl>
+

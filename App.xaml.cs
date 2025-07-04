@@ -26,7 +26,7 @@ namespace ASDS_dev
 
             RootFrame = new Frame();
             m_window.Content = RootFrame;
-            RootFrame.Navigate(typeof(ASDS_dev.Pages.MaintPage.PumpCalibration), null,
+            RootFrame.Navigate(typeof(ASDS_dev.Pages.Reports.Reports), null,
                 new SuppressNavigationTransitionInfo());
 
             // 💡 Fix window size to match 10-inch IPC (example: 1280x800)
