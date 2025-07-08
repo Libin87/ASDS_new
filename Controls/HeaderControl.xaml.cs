@@ -60,10 +60,16 @@ namespace ASDS_dev.Controls
             var audit = new AuditEvent
             {
                 EventTime = DateTime.Now,
-                EventType = 1,
+                EventType = 2, 
+                UserId = SessionManager.Uid,  
+                UserName = SessionManager.CurrentUsername,
                 EventMessage = "Logout Successful",
-
+                OldValue = "",
+                NewValue = "",
+                Remarks = "",
+                RemarksAdded = 0
             };
+
 
             AuditLogger.LogEvent(audit);
             SessionManager.CurrentUsername = null;

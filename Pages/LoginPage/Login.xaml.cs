@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
+using ASDS_dev.Pages.Reports.Controls; 
 using ASDS_dev.Pages.UserManagement;
+using ASDS_dev.ViewModels;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using ASDS_dev.ViewModels;
-using ASDS_dev.Pages.Reports.Controls; 
 
 
 namespace ASDS_dev.Pages.LoginPage
@@ -47,22 +47,28 @@ namespace ASDS_dev.Pages.LoginPage
                 return;
             }
 
+            SessionManager.CurrentUsername = userId;
+            SessionManager.Uid = result.ID;
 
             var audit = new AuditEvent
             {
                 EventTime = DateTime.Now,
                 EventType = 1, 
-                UserId = userId,
+                UserId = SessionManager.Uid,
                 UserName = userId, 
                 EventMessage = "Login Successful",
+                OldValue = "",
+                NewValue = "",
+                Remarks = "",
                 RemarksAdded = 0
             };
+            
 
             AuditLogger.LogEvent(audit); 
 
            
             LoginButton.Visibility = Visibility.Collapsed;
-            SessionManager.CurrentUsername = userId;
+            
             Frame.Navigate(typeof(HomePage.HomePage));
             await ShowDialog("Login Successful", $"Welcome back, {userId}!");
         }

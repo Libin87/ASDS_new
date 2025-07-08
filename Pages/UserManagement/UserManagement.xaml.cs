@@ -1,11 +1,3 @@
-using ASDS_dev.Pages.UsrMgmt;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,6 +5,16 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
+using ASDS_dev.Pages.Reports.Controls;
+using ASDS_dev.Pages.UsrMgmt;
+using ASDS_dev.ViewModels;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.System;
@@ -22,9 +24,6 @@ using Windows.System;
 
 namespace ASDS_dev.Pages.UserManagement
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class UserManagement : Page
     {
         public UserManagement()
@@ -45,6 +44,10 @@ namespace ASDS_dev.Pages.UserManagement
             UserRoleBox.SelectedIndex = -1;
             StatusBox.SelectedIndex = -1;
         }
+
+
+       
+        
 
         private void AddOrUpdateUser(object sender, RoutedEventArgs e)
         {
@@ -103,6 +106,16 @@ namespace ASDS_dev.Pages.UserManagement
             }
 
             if (!isValid) return; // Stop processing if validation failed
+            AuditEvent audit = new AuditEvent
+            {
+                EventTime = DateTime.Now,
+                UserId = SessionManager.Uid,
+                UserName = SessionManager.CurrentUsername,
+                OldValue = "",
+                NewValue = "",
+                Remarks = "",
+                RemarksAdded = 0
+            };
 
             try
             {
@@ -120,6 +133,11 @@ namespace ASDS_dev.Pages.UserManagement
                         Pass = pass,
                         CreatedAt = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
                     });
+
+                    audit.EventType = 3;
+                    audit.EventMessage = "New User Added Successfully";
+
+
                 }
                 else
                 {
@@ -136,17 +154,25 @@ namespace ASDS_dev.Pages.UserManagement
 
                     UserIdBox.IsEnabled = true;
                     selectedUser = null;
+                    audit.EventType = 4;
+                    audit.EventMessage = "User details Updated Successfully";
                 }
+               
+
+               
+                
 
                 ClearInputFields();
                 AddUserButton.Content = "Add User";
             }
+
             catch (Exception ex)
             {
                 ShowMessage($"Error: {ex.Message}");
             }
+            AuditLogger.LogEvent(audit);
         }
-
+        
 
 
 

@@ -226,7 +226,7 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[48];
+            _typeNameTable = new string[45];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.Button";
             _typeNameTable[1] = "ASDS_dev.Controls.FooterControl";
             _typeNameTable[2] = "Microsoft.UI.Xaml.Controls.UserControl";
@@ -248,35 +248,32 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
             _typeNameTable[18] = "ASDS_dev.Pages.MaintPage.TestVolume";
             _typeNameTable[19] = "ASDS_dev.Pages.Reports.Controls.Alarm";
             _typeNameTable[20] = "ASDS_dev.Pages.Reports.Controls.Audit";
-            _typeNameTable[21] = "System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>";
-            _typeNameTable[22] = "System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>";
-            _typeNameTable[23] = "ASDS_dev.Pages.Reports.Controls.AuditRecord";
-            _typeNameTable[24] = "Int32";
-            _typeNameTable[25] = "String";
-            _typeNameTable[26] = "ASDS_dev.Pages.Reports.Controls.Events";
-            _typeNameTable[27] = "ASDS_dev.Pages.Reports.Controls.Users";
-            _typeNameTable[28] = "ASDS_dev.Pages.Reports.Reports";
-            _typeNameTable[29] = "ASDS_dev.Pages.Settings.Settings";
-            _typeNameTable[30] = "ASDS_dev.Pages.SyncDatetime.SyncDateTime";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ItemsRepeater";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.FrameworkElement";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Media.Brush";
-            _typeNameTable[34] = "Double";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.ItemsSourceView";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.Layout";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[39] = "ASDS_dev.Pages.UserManagement.UserManagement";
-            _typeNameTable[40] = "System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.UserManagement.User>";
-            _typeNameTable[41] = "System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.UserManagement.User>";
-            _typeNameTable[42] = "ASDS_dev.Pages.UserManagement.User";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[44] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[45] = "Boolean";
-            _typeNameTable[46] = "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter";
-            _typeNameTable[47] = "Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter";
+            _typeNameTable[21] = "ASDS_dev.Pages.Reports.Controls.Events";
+            _typeNameTable[22] = "ASDS_dev.Pages.Reports.Controls.Users";
+            _typeNameTable[23] = "ASDS_dev.Pages.Reports.Reports";
+            _typeNameTable[24] = "ASDS_dev.Pages.Settings.Settings";
+            _typeNameTable[25] = "ASDS_dev.Pages.SyncDatetime.SyncDateTime";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.ItemsRepeater";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Media.Brush";
+            _typeNameTable[29] = "Double";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ItemsSourceView";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.Layout";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[34] = "ASDS_dev.Pages.UserManagement.UserManagement";
+            _typeNameTable[35] = "System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.UserManagement.User>";
+            _typeNameTable[36] = "System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.UserManagement.User>";
+            _typeNameTable[37] = "ASDS_dev.Pages.UserManagement.User";
+            _typeNameTable[38] = "String";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[40] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[41] = "Int32";
+            _typeNameTable[42] = "Boolean";
+            _typeNameTable[43] = "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter";
+            _typeNameTable[44] = "Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter";
 
-            _typeTable = new global::System.Type[48];
+            _typeTable = new global::System.Type[45];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.Button);
             _typeTable[1] = typeof(global::ASDS_dev.Controls.FooterControl);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
@@ -298,33 +295,30 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
             _typeTable[18] = typeof(global::ASDS_dev.Pages.MaintPage.TestVolume);
             _typeTable[19] = typeof(global::ASDS_dev.Pages.Reports.Controls.Alarm);
             _typeTable[20] = typeof(global::ASDS_dev.Pages.Reports.Controls.Audit);
-            _typeTable[21] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>);
-            _typeTable[22] = typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>);
-            _typeTable[23] = typeof(global::ASDS_dev.Pages.Reports.Controls.AuditRecord);
-            _typeTable[24] = typeof(global::System.Int32);
-            _typeTable[25] = typeof(global::System.String);
-            _typeTable[26] = typeof(global::ASDS_dev.Pages.Reports.Controls.Events);
-            _typeTable[27] = typeof(global::ASDS_dev.Pages.Reports.Controls.Users);
-            _typeTable[28] = typeof(global::ASDS_dev.Pages.Reports.Reports);
-            _typeTable[29] = typeof(global::ASDS_dev.Pages.Settings.Settings);
-            _typeTable[30] = typeof(global::ASDS_dev.Pages.SyncDatetime.SyncDateTime);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsRepeater);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
-            _typeTable[34] = typeof(global::System.Double);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsSourceView);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[39] = typeof(global::ASDS_dev.Pages.UserManagement.UserManagement);
-            _typeTable[40] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>);
-            _typeTable[41] = typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>);
-            _typeTable[42] = typeof(global::ASDS_dev.Pages.UserManagement.User);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[44] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[45] = typeof(global::System.Boolean);
-            _typeTable[46] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter);
-            _typeTable[47] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter);
+            _typeTable[21] = typeof(global::ASDS_dev.Pages.Reports.Controls.Events);
+            _typeTable[22] = typeof(global::ASDS_dev.Pages.Reports.Controls.Users);
+            _typeTable[23] = typeof(global::ASDS_dev.Pages.Reports.Reports);
+            _typeTable[24] = typeof(global::ASDS_dev.Pages.Settings.Settings);
+            _typeTable[25] = typeof(global::ASDS_dev.Pages.SyncDatetime.SyncDateTime);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsRepeater);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
+            _typeTable[29] = typeof(global::System.Double);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsSourceView);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[34] = typeof(global::ASDS_dev.Pages.UserManagement.UserManagement);
+            _typeTable[35] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>);
+            _typeTable[36] = typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>);
+            _typeTable[37] = typeof(global::ASDS_dev.Pages.UserManagement.User);
+            _typeTable[38] = typeof(global::System.String);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[40] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[41] = typeof(global::System.Int32);
+            _typeTable[42] = typeof(global::System.Boolean);
+            _typeTable[43] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter);
+            _typeTable[44] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -373,23 +367,20 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
         private object Activate_18_TestVolume() { return new global::ASDS_dev.Pages.MaintPage.TestVolume(); }
         private object Activate_19_Alarm() { return new global::ASDS_dev.Pages.Reports.Controls.Alarm(); }
         private object Activate_20_Audit() { return new global::ASDS_dev.Pages.Reports.Controls.Audit(); }
-        private object Activate_21_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>(); }
-        private object Activate_22_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>(); }
-        private object Activate_23_AuditRecord() { return new global::ASDS_dev.Pages.Reports.Controls.AuditRecord(); }
-        private object Activate_26_Events() { return new global::ASDS_dev.Pages.Reports.Controls.Events(); }
-        private object Activate_27_Users() { return new global::ASDS_dev.Pages.Reports.Controls.Users(); }
-        private object Activate_28_Reports() { return new global::ASDS_dev.Pages.Reports.Reports(); }
-        private object Activate_29_Settings() { return new global::ASDS_dev.Pages.Settings.Settings(); }
-        private object Activate_30_SyncDateTime() { return new global::ASDS_dev.Pages.SyncDatetime.SyncDateTime(); }
-        private object Activate_31_ItemsRepeater() { return new global::Microsoft.UI.Xaml.Controls.ItemsRepeater(); }
-        private object Activate_35_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
-        private object Activate_39_UserManagement() { return new global::ASDS_dev.Pages.UserManagement.UserManagement(); }
-        private object Activate_40_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>(); }
-        private object Activate_41_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>(); }
-        private object Activate_42_User() { return new global::ASDS_dev.Pages.UserManagement.User(); }
-        private object Activate_43_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
-        private object Activate_46_DoubleToObjectConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter(); }
-        private object Activate_47_DoubleToVisibilityConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter(); }
+        private object Activate_21_Events() { return new global::ASDS_dev.Pages.Reports.Controls.Events(); }
+        private object Activate_22_Users() { return new global::ASDS_dev.Pages.Reports.Controls.Users(); }
+        private object Activate_23_Reports() { return new global::ASDS_dev.Pages.Reports.Reports(); }
+        private object Activate_24_Settings() { return new global::ASDS_dev.Pages.Settings.Settings(); }
+        private object Activate_25_SyncDateTime() { return new global::ASDS_dev.Pages.SyncDatetime.SyncDateTime(); }
+        private object Activate_26_ItemsRepeater() { return new global::Microsoft.UI.Xaml.Controls.ItemsRepeater(); }
+        private object Activate_30_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
+        private object Activate_34_UserManagement() { return new global::ASDS_dev.Pages.UserManagement.UserManagement(); }
+        private object Activate_35_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>(); }
+        private object Activate_36_Collection() { return new global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>(); }
+        private object Activate_37_User() { return new global::ASDS_dev.Pages.UserManagement.User(); }
+        private object Activate_39_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_43_DoubleToObjectConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter(); }
+        private object Activate_44_DoubleToVisibilityConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter(); }
         private void StaticInitializer_1_FooterControl() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Controls.FooterControl).TypeHandle);
         private void StaticInitializer_3_HeaderViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.ViewModels.HeaderViewModel).TypeHandle);
         private void StaticInitializer_5_DateTime() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.DateTime).TypeHandle);
@@ -406,51 +397,36 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
         private void StaticInitializer_18_TestVolume() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.MaintPage.TestVolume).TypeHandle);
         private void StaticInitializer_19_Alarm() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Alarm).TypeHandle);
         private void StaticInitializer_20_Audit() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Audit).TypeHandle);
-        private void StaticInitializer_21_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>).TypeHandle);
-        private void StaticInitializer_22_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>).TypeHandle);
-        private void StaticInitializer_23_AuditRecord() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.AuditRecord).TypeHandle);
-        private void StaticInitializer_26_Events() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Events).TypeHandle);
-        private void StaticInitializer_27_Users() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Users).TypeHandle);
-        private void StaticInitializer_28_Reports() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Reports).TypeHandle);
-        private void StaticInitializer_29_Settings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Settings.Settings).TypeHandle);
-        private void StaticInitializer_30_SyncDateTime() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.SyncDatetime.SyncDateTime).TypeHandle);
-        private void StaticInitializer_31_ItemsRepeater() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsRepeater).TypeHandle);
-        private void StaticInitializer_35_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
-        private void StaticInitializer_36_ItemsSourceView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsSourceView).TypeHandle);
-        private void StaticInitializer_37_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
-        private void StaticInitializer_39_UserManagement() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.UserManagement.UserManagement).TypeHandle);
-        private void StaticInitializer_40_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>).TypeHandle);
-        private void StaticInitializer_41_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>).TypeHandle);
-        private void StaticInitializer_42_User() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.UserManagement.User).TypeHandle);
-        private void StaticInitializer_43_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_44_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
-        private void StaticInitializer_46_DoubleToObjectConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter).TypeHandle);
-        private void StaticInitializer_47_DoubleToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter).TypeHandle);
-        private void VectorAdd_21_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>)instance;
-            var newItem = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_22_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>)instance;
-            var newItem = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_40_ObservableCollection(object instance, object item)
+        private void StaticInitializer_21_Events() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Events).TypeHandle);
+        private void StaticInitializer_22_Users() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Controls.Users).TypeHandle);
+        private void StaticInitializer_23_Reports() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Reports.Reports).TypeHandle);
+        private void StaticInitializer_24_Settings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.Settings.Settings).TypeHandle);
+        private void StaticInitializer_25_SyncDateTime() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.SyncDatetime.SyncDateTime).TypeHandle);
+        private void StaticInitializer_26_ItemsRepeater() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsRepeater).TypeHandle);
+        private void StaticInitializer_30_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
+        private void StaticInitializer_31_ItemsSourceView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsSourceView).TypeHandle);
+        private void StaticInitializer_32_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
+        private void StaticInitializer_34_UserManagement() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.UserManagement.UserManagement).TypeHandle);
+        private void StaticInitializer_35_ObservableCollection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>).TypeHandle);
+        private void StaticInitializer_36_Collection() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.ObjectModel.Collection<global::ASDS_dev.Pages.UserManagement.User>).TypeHandle);
+        private void StaticInitializer_37_User() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ASDS_dev.Pages.UserManagement.User).TypeHandle);
+        private void StaticInitializer_39_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_40_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_43_DoubleToObjectConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter).TypeHandle);
+        private void StaticInitializer_44_DoubleToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter).TypeHandle);
+        private void VectorAdd_35_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ASDS_dev.Pages.UserManagement.User>)instance;
             var newItem = (global::ASDS_dev.Pages.UserManagement.User)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_41_Collection(object instance, object item)
+        private void VectorAdd_36_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ASDS_dev.Pages.UserManagement.User>)instance;
             var newItem = (global::ASDS_dev.Pages.UserManagement.User)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_IList(object instance, object item)
+        private void VectorAdd_40_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -609,93 +585,54 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_20_Audit;
                 userType.StaticInitializer = StaticInitializer_20_Audit;
-                userType.AddMemberName("AuditRecords");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 21:   //  System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>
-                userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>"));
-                userType.StaticInitializer = StaticInitializer_21_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_21_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 22:   //  System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>
-                userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_22_Collection;
-                userType.StaticInitializer = StaticInitializer_22_Collection;
-                userType.CollectionAdd = VectorAdd_22_Collection;
-                xamlType = userType;
-                break;
-
-            case 23:   //  ASDS_dev.Pages.Reports.Controls.AuditRecord
-                userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_23_AuditRecord;
-                userType.StaticInitializer = StaticInitializer_23_AuditRecord;
-                userType.AddMemberName("RecordId");
-                userType.AddMemberName("Timestamp");
-                userType.AddMemberName("UserName");
-                userType.AddMemberName("Operation");
-                userType.AddMemberName("Status");
-                userType.AddMemberName("Information");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 24:   //  Int32
-                xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 25:   //  String
-                xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 26:   //  ASDS_dev.Pages.Reports.Controls.Events
+            case 21:   //  ASDS_dev.Pages.Reports.Controls.Events
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_26_Events;
-                userType.StaticInitializer = StaticInitializer_26_Events;
+                userType.Activator = Activate_21_Events;
+                userType.StaticInitializer = StaticInitializer_21_Events;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 27:   //  ASDS_dev.Pages.Reports.Controls.Users
+            case 22:   //  ASDS_dev.Pages.Reports.Controls.Users
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_27_Users;
-                userType.StaticInitializer = StaticInitializer_27_Users;
+                userType.Activator = Activate_22_Users;
+                userType.StaticInitializer = StaticInitializer_22_Users;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  ASDS_dev.Pages.Reports.Reports
+            case 23:   //  ASDS_dev.Pages.Reports.Reports
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_28_Reports;
-                userType.StaticInitializer = StaticInitializer_28_Reports;
+                userType.Activator = Activate_23_Reports;
+                userType.StaticInitializer = StaticInitializer_23_Reports;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  ASDS_dev.Pages.Settings.Settings
+            case 24:   //  ASDS_dev.Pages.Settings.Settings
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_29_Settings;
-                userType.StaticInitializer = StaticInitializer_29_Settings;
+                userType.Activator = Activate_24_Settings;
+                userType.StaticInitializer = StaticInitializer_24_Settings;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  ASDS_dev.Pages.SyncDatetime.SyncDateTime
+            case 25:   //  ASDS_dev.Pages.SyncDatetime.SyncDateTime
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_30_SyncDateTime;
-                userType.StaticInitializer = StaticInitializer_30_SyncDateTime;
+                userType.Activator = Activate_25_SyncDateTime;
+                userType.StaticInitializer = StaticInitializer_25_SyncDateTime;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.ItemsRepeater
+            case 26:   //  Microsoft.UI.Xaml.Controls.ItemsRepeater
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.FrameworkElement"));
-                userType.Activator = Activate_31_ItemsRepeater;
-                userType.StaticInitializer = StaticInitializer_31_ItemsRepeater;
+                userType.Activator = Activate_26_ItemsRepeater;
+                userType.StaticInitializer = StaticInitializer_26_ItemsRepeater;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemTemplate");
                 userType.AddMemberName("ItemTemplate");
                 userType.AddMemberName("ItemsSource");
@@ -708,72 +645,72 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.FrameworkElement
+            case 27:   //  Microsoft.UI.Xaml.FrameworkElement
                 xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Media.Brush
+            case 28:   //  Microsoft.UI.Xaml.Media.Brush
                 xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 34:   //  Double
+            case 29:   //  Double
                 xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
+            case 30:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_35_ItemCollectionTransitionProvider;
+                userType.StaticInitializer = StaticInitializer_30_ItemCollectionTransitionProvider;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.Controls.ItemsSourceView
+            case 31:   //  Microsoft.UI.Xaml.Controls.ItemsSourceView
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_36_ItemsSourceView;
+                userType.StaticInitializer = StaticInitializer_31_ItemsSourceView;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.Layout
+            case 32:   //  Microsoft.UI.Xaml.Controls.Layout
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_37_Layout;
+                userType.StaticInitializer = StaticInitializer_32_Layout;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.DependencyObject
+            case 33:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 39:   //  ASDS_dev.Pages.UserManagement.UserManagement
+            case 34:   //  ASDS_dev.Pages.UserManagement.UserManagement
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_UserManagement;
-                userType.StaticInitializer = StaticInitializer_39_UserManagement;
+                userType.Activator = Activate_34_UserManagement;
+                userType.StaticInitializer = StaticInitializer_34_UserManagement;
                 userType.AddMemberName("Users");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 40:   //  System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.UserManagement.User>
+            case 35:   //  System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.UserManagement.User>
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.UserManagement.User>"));
-                userType.StaticInitializer = StaticInitializer_40_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_40_ObservableCollection;
+                userType.StaticInitializer = StaticInitializer_35_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_35_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 41:   //  System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.UserManagement.User>
+            case 36:   //  System.Collections.ObjectModel.Collection`1<ASDS_dev.Pages.UserManagement.User>
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_41_Collection;
-                userType.StaticInitializer = StaticInitializer_41_Collection;
-                userType.CollectionAdd = VectorAdd_41_Collection;
+                userType.Activator = Activate_36_Collection;
+                userType.StaticInitializer = StaticInitializer_36_Collection;
+                userType.CollectionAdd = VectorAdd_36_Collection;
                 xamlType = userType;
                 break;
 
-            case 42:   //  ASDS_dev.Pages.UserManagement.User
+            case 37:   //  ASDS_dev.Pages.UserManagement.User
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_42_User;
-                userType.StaticInitializer = StaticInitializer_42_User;
+                userType.Activator = Activate_37_User;
+                userType.StaticInitializer = StaticInitializer_37_User;
                 userType.AddMemberName("UserId");
                 userType.AddMemberName("FirstName");
                 userType.AddMemberName("LastName");
@@ -785,10 +722,14 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 38:   //  String
+                xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_43_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_43_TreeViewNode;
+                userType.Activator = Activate_39_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_39_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -800,22 +741,26 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 40:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_44_IList;
-                userType.CollectionAdd = VectorAdd_44_IList;
+                userType.StaticInitializer = StaticInitializer_40_IList;
+                userType.CollectionAdd = VectorAdd_40_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  Boolean
+            case 41:   //  Int32
                 xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 46:   //  Syncfusion.UI.Xaml.Core.DoubleToObjectConverter
+            case 42:   //  Boolean
+                xamlType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 43:   //  Syncfusion.UI.Xaml.Core.DoubleToObjectConverter
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_46_DoubleToObjectConverter;
-                userType.StaticInitializer = StaticInitializer_46_DoubleToObjectConverter;
+                userType.Activator = Activate_43_DoubleToObjectConverter;
+                userType.StaticInitializer = StaticInitializer_43_DoubleToObjectConverter;
                 userType.AddMemberName("TrueValue");
                 userType.AddMemberName("FalseValue");
                 userType.AddMemberName("NullValue");
@@ -825,10 +770,10 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 47:   //  Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter
+            case 44:   //  Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter
                 userType = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter"));
-                userType.Activator = Activate_47_DoubleToVisibilityConverter;
-                userType.StaticInitializer = StaticInitializer_47_DoubleToVisibilityConverter;
+                userType.Activator = Activate_44_DoubleToVisibilityConverter;
+                userType.StaticInitializer = StaticInitializer_44_DoubleToVisibilityConverter;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
@@ -921,327 +866,257 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
             var that = (global::ASDS_dev.ViewModels.HeaderViewModel)instance;
             that.CurrentTime = (global::System.DateTime)Value;
         }
-        private object get_1_Audit_AuditRecords(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.Audit)instance;
-            return that.AuditRecords;
-        }
-        private void set_1_Audit_AuditRecords(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.Audit)instance;
-            that.AuditRecords = (global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.Reports.Controls.AuditRecord>)Value;
-        }
-        private object get_2_AuditRecord_RecordId(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.RecordId;
-        }
-        private void set_2_AuditRecord_RecordId(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.RecordId = (global::System.Int32)Value;
-        }
-        private object get_3_AuditRecord_Timestamp(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.Timestamp;
-        }
-        private void set_3_AuditRecord_Timestamp(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.Timestamp = (global::System.String)Value;
-        }
-        private object get_4_AuditRecord_UserName(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.UserName;
-        }
-        private void set_4_AuditRecord_UserName(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.UserName = (global::System.String)Value;
-        }
-        private object get_5_AuditRecord_Operation(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.Operation;
-        }
-        private void set_5_AuditRecord_Operation(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.Operation = (global::System.String)Value;
-        }
-        private object get_6_AuditRecord_Status(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.Status;
-        }
-        private void set_6_AuditRecord_Status(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.Status = (global::System.String)Value;
-        }
-        private object get_7_AuditRecord_Information(object instance)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            return that.Information;
-        }
-        private void set_7_AuditRecord_Information(object instance, object Value)
-        {
-            var that = (global::ASDS_dev.Pages.Reports.Controls.AuditRecord)instance;
-            that.Information = (global::System.String)Value;
-        }
-        private object get_8_ItemsRepeater_ItemTemplate(object instance)
+        private object get_1_ItemsRepeater_ItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.ItemTemplate;
         }
-        private void set_8_ItemsRepeater_ItemTemplate(object instance, object Value)
+        private void set_1_ItemsRepeater_ItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.ItemTemplate = (global::System.Object)Value;
         }
-        private object get_9_ItemsRepeater_ItemsSource(object instance)
+        private object get_2_ItemsRepeater_ItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.ItemsSource;
         }
-        private void set_9_ItemsRepeater_ItemsSource(object instance, object Value)
+        private void set_2_ItemsRepeater_ItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.ItemsSource = (global::System.Object)Value;
         }
-        private object get_10_ItemsRepeater_Background(object instance)
+        private object get_3_ItemsRepeater_Background(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.Background;
         }
-        private void set_10_ItemsRepeater_Background(object instance, object Value)
+        private void set_3_ItemsRepeater_Background(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.Background = (global::Microsoft.UI.Xaml.Media.Brush)Value;
         }
-        private object get_11_ItemsRepeater_HorizontalCacheLength(object instance)
+        private object get_4_ItemsRepeater_HorizontalCacheLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.HorizontalCacheLength;
         }
-        private void set_11_ItemsRepeater_HorizontalCacheLength(object instance, object Value)
+        private void set_4_ItemsRepeater_HorizontalCacheLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.HorizontalCacheLength = (global::System.Double)Value;
         }
-        private object get_12_ItemsRepeater_ItemTransitionProvider(object instance)
+        private object get_5_ItemsRepeater_ItemTransitionProvider(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.ItemTransitionProvider;
         }
-        private void set_12_ItemsRepeater_ItemTransitionProvider(object instance, object Value)
+        private void set_5_ItemsRepeater_ItemTransitionProvider(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.ItemTransitionProvider = (global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider)Value;
         }
-        private object get_13_ItemsRepeater_ItemsSourceView(object instance)
+        private object get_6_ItemsRepeater_ItemsSourceView(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.ItemsSourceView;
         }
-        private object get_14_ItemsRepeater_Layout(object instance)
+        private object get_7_ItemsRepeater_Layout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.Layout;
         }
-        private void set_14_ItemsRepeater_Layout(object instance, object Value)
+        private void set_7_ItemsRepeater_Layout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.Layout = (global::Microsoft.UI.Xaml.Controls.Layout)Value;
         }
-        private object get_15_ItemsRepeater_VerticalCacheLength(object instance)
+        private object get_8_ItemsRepeater_VerticalCacheLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             return that.VerticalCacheLength;
         }
-        private void set_15_ItemsRepeater_VerticalCacheLength(object instance, object Value)
+        private void set_8_ItemsRepeater_VerticalCacheLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsRepeater)instance;
             that.VerticalCacheLength = (global::System.Double)Value;
         }
-        private object get_16_UserManagement_Users(object instance)
+        private object get_9_UserManagement_Users(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.UserManagement)instance;
             return that.Users;
         }
-        private void set_16_UserManagement_Users(object instance, object Value)
+        private void set_9_UserManagement_Users(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.UserManagement)instance;
             that.Users = (global::System.Collections.ObjectModel.ObservableCollection<global::ASDS_dev.Pages.UserManagement.User>)Value;
         }
-        private object get_17_User_UserId(object instance)
+        private object get_10_User_UserId(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.UserId;
         }
-        private void set_17_User_UserId(object instance, object Value)
+        private void set_10_User_UserId(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.UserId = (global::System.String)Value;
         }
-        private object get_18_User_FirstName(object instance)
+        private object get_11_User_FirstName(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.FirstName;
         }
-        private void set_18_User_FirstName(object instance, object Value)
+        private void set_11_User_FirstName(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.FirstName = (global::System.String)Value;
         }
-        private object get_19_User_LastName(object instance)
+        private object get_12_User_LastName(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.LastName;
         }
-        private void set_19_User_LastName(object instance, object Value)
+        private void set_12_User_LastName(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.LastName = (global::System.String)Value;
         }
-        private object get_20_User_UserRole(object instance)
+        private object get_13_User_UserRole(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.UserRole;
         }
-        private void set_20_User_UserRole(object instance, object Value)
+        private void set_13_User_UserRole(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.UserRole = (global::System.String)Value;
         }
-        private object get_21_User_Status(object instance)
+        private object get_14_User_Status(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.Status;
         }
-        private void set_21_User_Status(object instance, object Value)
+        private void set_14_User_Status(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.Status = (global::System.String)Value;
         }
-        private object get_22_User_CreatedAt(object instance)
+        private object get_15_User_CreatedAt(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.CreatedAt;
         }
-        private void set_22_User_CreatedAt(object instance, object Value)
+        private void set_15_User_CreatedAt(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.CreatedAt = (global::System.String)Value;
         }
-        private object get_23_User_Pass(object instance)
+        private object get_16_User_Pass(object instance)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             return that.Pass;
         }
-        private void set_23_User_Pass(object instance, object Value)
+        private void set_16_User_Pass(object instance, object Value)
         {
             var that = (global::ASDS_dev.Pages.UserManagement.User)instance;
             that.Pass = (global::System.String)Value;
         }
-        private object get_24_TreeViewNode_Children(object instance)
+        private object get_17_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_25_TreeViewNode_Content(object instance)
+        private object get_18_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_25_TreeViewNode_Content(object instance, object Value)
+        private void set_18_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_26_TreeViewNode_Depth(object instance)
+        private object get_19_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_27_TreeViewNode_HasChildren(object instance)
+        private object get_20_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_28_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_21_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_28_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_21_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_29_TreeViewNode_IsExpanded(object instance)
+        private object get_22_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_29_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_22_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_30_TreeViewNode_Parent(object instance)
+        private object get_23_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
         }
-        private object get_31_DoubleToObjectConverter_TrueValue(object instance)
+        private object get_24_DoubleToObjectConverter_TrueValue(object instance)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             return that.TrueValue;
         }
-        private void set_31_DoubleToObjectConverter_TrueValue(object instance, object Value)
+        private void set_24_DoubleToObjectConverter_TrueValue(object instance, object Value)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             that.TrueValue = (global::System.Object)Value;
         }
-        private object get_32_DoubleToObjectConverter_FalseValue(object instance)
+        private object get_25_DoubleToObjectConverter_FalseValue(object instance)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             return that.FalseValue;
         }
-        private void set_32_DoubleToObjectConverter_FalseValue(object instance, object Value)
+        private void set_25_DoubleToObjectConverter_FalseValue(object instance, object Value)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             that.FalseValue = (global::System.Object)Value;
         }
-        private object get_33_DoubleToObjectConverter_NullValue(object instance)
+        private object get_26_DoubleToObjectConverter_NullValue(object instance)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             return that.NullValue;
         }
-        private void set_33_DoubleToObjectConverter_NullValue(object instance, object Value)
+        private void set_26_DoubleToObjectConverter_NullValue(object instance, object Value)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             that.NullValue = (global::System.Object)Value;
         }
-        private object get_34_DoubleToObjectConverter_GreaterThan(object instance)
+        private object get_27_DoubleToObjectConverter_GreaterThan(object instance)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             return that.GreaterThan;
         }
-        private void set_34_DoubleToObjectConverter_GreaterThan(object instance, object Value)
+        private void set_27_DoubleToObjectConverter_GreaterThan(object instance, object Value)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             that.GreaterThan = (global::System.Double)Value;
         }
-        private object get_35_DoubleToObjectConverter_LessThan(object instance)
+        private object get_28_DoubleToObjectConverter_LessThan(object instance)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             return that.LessThan;
         }
-        private void set_35_DoubleToObjectConverter_LessThan(object instance, object Value)
+        private void set_28_DoubleToObjectConverter_LessThan(object instance, object Value)
         {
             var that = (global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter)instance;
             that.LessThan = (global::System.Double)Value;
@@ -1260,231 +1135,189 @@ namespace ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo
                 xamlMember.Getter = get_0_HeaderViewModel_CurrentTime;
                 xamlMember.Setter = set_0_HeaderViewModel_CurrentTime;
                 break;
-            case "ASDS_dev.Pages.Reports.Controls.Audit.AuditRecords":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.Audit");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "AuditRecords", "System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.Reports.Controls.AuditRecord>");
-                xamlMember.Getter = get_1_Audit_AuditRecords;
-                xamlMember.Setter = set_1_Audit_AuditRecords;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.RecordId":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "RecordId", "Int32");
-                xamlMember.Getter = get_2_AuditRecord_RecordId;
-                xamlMember.Setter = set_2_AuditRecord_RecordId;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.Timestamp":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Timestamp", "String");
-                xamlMember.Getter = get_3_AuditRecord_Timestamp;
-                xamlMember.Setter = set_3_AuditRecord_Timestamp;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.UserName":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "UserName", "String");
-                xamlMember.Getter = get_4_AuditRecord_UserName;
-                xamlMember.Setter = set_4_AuditRecord_UserName;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.Operation":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Operation", "String");
-                xamlMember.Getter = get_5_AuditRecord_Operation;
-                xamlMember.Setter = set_5_AuditRecord_Operation;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.Status":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Status", "String");
-                xamlMember.Getter = get_6_AuditRecord_Status;
-                xamlMember.Setter = set_6_AuditRecord_Status;
-                break;
-            case "ASDS_dev.Pages.Reports.Controls.AuditRecord.Information":
-                userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.Reports.Controls.AuditRecord");
-                xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Information", "String");
-                xamlMember.Getter = get_7_AuditRecord_Information;
-                xamlMember.Setter = set_7_AuditRecord_Information;
-                break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemTemplate":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_ItemsRepeater_ItemTemplate;
-                xamlMember.Setter = set_8_ItemsRepeater_ItemTemplate;
+                xamlMember.Getter = get_1_ItemsRepeater_ItemTemplate;
+                xamlMember.Setter = set_1_ItemsRepeater_ItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemsSource":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_ItemsRepeater_ItemsSource;
-                xamlMember.Setter = set_9_ItemsRepeater_ItemsSource;
+                xamlMember.Getter = get_2_ItemsRepeater_ItemsSource;
+                xamlMember.Setter = set_2_ItemsRepeater_ItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.Background":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Background", "Microsoft.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_ItemsRepeater_Background;
-                xamlMember.Setter = set_10_ItemsRepeater_Background;
+                xamlMember.Getter = get_3_ItemsRepeater_Background;
+                xamlMember.Setter = set_3_ItemsRepeater_Background;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.HorizontalCacheLength":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "HorizontalCacheLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_ItemsRepeater_HorizontalCacheLength;
-                xamlMember.Setter = set_11_ItemsRepeater_HorizontalCacheLength;
+                xamlMember.Getter = get_4_ItemsRepeater_HorizontalCacheLength;
+                xamlMember.Setter = set_4_ItemsRepeater_HorizontalCacheLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemTransitionProvider":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "ItemTransitionProvider", "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_ItemsRepeater_ItemTransitionProvider;
-                xamlMember.Setter = set_12_ItemsRepeater_ItemTransitionProvider;
+                xamlMember.Getter = get_5_ItemsRepeater_ItemTransitionProvider;
+                xamlMember.Setter = set_5_ItemsRepeater_ItemTransitionProvider;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.ItemsSourceView":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "ItemsSourceView", "Microsoft.UI.Xaml.Controls.ItemsSourceView");
-                xamlMember.Getter = get_13_ItemsRepeater_ItemsSourceView;
+                xamlMember.Getter = get_6_ItemsRepeater_ItemsSourceView;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.Layout":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Layout", "Microsoft.UI.Xaml.Controls.Layout");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_ItemsRepeater_Layout;
-                xamlMember.Setter = set_14_ItemsRepeater_Layout;
+                xamlMember.Getter = get_7_ItemsRepeater_Layout;
+                xamlMember.Setter = set_7_ItemsRepeater_Layout;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsRepeater.VerticalCacheLength":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsRepeater");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "VerticalCacheLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_ItemsRepeater_VerticalCacheLength;
-                xamlMember.Setter = set_15_ItemsRepeater_VerticalCacheLength;
+                xamlMember.Getter = get_8_ItemsRepeater_VerticalCacheLength;
+                xamlMember.Setter = set_8_ItemsRepeater_VerticalCacheLength;
                 break;
             case "ASDS_dev.Pages.UserManagement.UserManagement.Users":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.UserManagement");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Users", "System.Collections.ObjectModel.ObservableCollection`1<ASDS_dev.Pages.UserManagement.User>");
-                xamlMember.Getter = get_16_UserManagement_Users;
-                xamlMember.Setter = set_16_UserManagement_Users;
+                xamlMember.Getter = get_9_UserManagement_Users;
+                xamlMember.Setter = set_9_UserManagement_Users;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.UserId":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "UserId", "String");
-                xamlMember.Getter = get_17_User_UserId;
-                xamlMember.Setter = set_17_User_UserId;
+                xamlMember.Getter = get_10_User_UserId;
+                xamlMember.Setter = set_10_User_UserId;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.FirstName":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "FirstName", "String");
-                xamlMember.Getter = get_18_User_FirstName;
-                xamlMember.Setter = set_18_User_FirstName;
+                xamlMember.Getter = get_11_User_FirstName;
+                xamlMember.Setter = set_11_User_FirstName;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.LastName":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "LastName", "String");
-                xamlMember.Getter = get_19_User_LastName;
-                xamlMember.Setter = set_19_User_LastName;
+                xamlMember.Getter = get_12_User_LastName;
+                xamlMember.Setter = set_12_User_LastName;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.UserRole":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "UserRole", "String");
-                xamlMember.Getter = get_20_User_UserRole;
-                xamlMember.Setter = set_20_User_UserRole;
+                xamlMember.Getter = get_13_User_UserRole;
+                xamlMember.Setter = set_13_User_UserRole;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.Status":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Status", "String");
-                xamlMember.Getter = get_21_User_Status;
-                xamlMember.Setter = set_21_User_Status;
+                xamlMember.Getter = get_14_User_Status;
+                xamlMember.Setter = set_14_User_Status;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.CreatedAt":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "CreatedAt", "String");
-                xamlMember.Getter = get_22_User_CreatedAt;
-                xamlMember.Setter = set_22_User_CreatedAt;
+                xamlMember.Getter = get_15_User_CreatedAt;
+                xamlMember.Setter = set_15_User_CreatedAt;
                 break;
             case "ASDS_dev.Pages.UserManagement.User.Pass":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ASDS_dev.Pages.UserManagement.User");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Pass", "String");
-                xamlMember.Getter = get_23_User_Pass;
-                xamlMember.Setter = set_23_User_Pass;
+                xamlMember.Getter = get_16_User_Pass;
+                xamlMember.Setter = set_16_User_Pass;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_24_TreeViewNode_Children;
+                xamlMember.Getter = get_17_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_TreeViewNode_Content;
-                xamlMember.Setter = set_25_TreeViewNode_Content;
+                xamlMember.Getter = get_18_TreeViewNode_Content;
+                xamlMember.Setter = set_18_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_TreeViewNode_Depth;
+                xamlMember.Getter = get_19_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_20_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_28_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_28_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_21_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_21_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_29_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_29_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_22_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_22_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_30_TreeViewNode_Parent;
+                xamlMember.Getter = get_23_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter.TrueValue":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "TrueValue", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_DoubleToObjectConverter_TrueValue;
-                xamlMember.Setter = set_31_DoubleToObjectConverter_TrueValue;
+                xamlMember.Getter = get_24_DoubleToObjectConverter_TrueValue;
+                xamlMember.Setter = set_24_DoubleToObjectConverter_TrueValue;
                 break;
             case "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter.FalseValue":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "FalseValue", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_DoubleToObjectConverter_FalseValue;
-                xamlMember.Setter = set_32_DoubleToObjectConverter_FalseValue;
+                xamlMember.Getter = get_25_DoubleToObjectConverter_FalseValue;
+                xamlMember.Setter = set_25_DoubleToObjectConverter_FalseValue;
                 break;
             case "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter.NullValue":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "NullValue", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_DoubleToObjectConverter_NullValue;
-                xamlMember.Setter = set_33_DoubleToObjectConverter_NullValue;
+                xamlMember.Getter = get_26_DoubleToObjectConverter_NullValue;
+                xamlMember.Setter = set_26_DoubleToObjectConverter_NullValue;
                 break;
             case "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter.GreaterThan":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "GreaterThan", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_DoubleToObjectConverter_GreaterThan;
-                xamlMember.Setter = set_34_DoubleToObjectConverter_GreaterThan;
+                xamlMember.Getter = get_27_DoubleToObjectConverter_GreaterThan;
+                xamlMember.Setter = set_27_DoubleToObjectConverter_GreaterThan;
                 break;
             case "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter.LessThan":
                 userType = (global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter");
                 xamlMember = new global::ASDS_devASDS_dev.ASDS_dev_XamlTypeInfo.XamlMember(this, "LessThan", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_DoubleToObjectConverter_LessThan;
-                xamlMember.Setter = set_35_DoubleToObjectConverter_LessThan;
+                xamlMember.Getter = get_28_DoubleToObjectConverter_LessThan;
+                xamlMember.Setter = set_28_DoubleToObjectConverter_LessThan;
                 break;
             }
             return xamlMember;

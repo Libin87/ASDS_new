@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-04T12:54:08.535</Modified>
+      <Modified>2025-07-07T09:29:08.272</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-07-04T09:56:37.530</Modified>
+      <Modified>2025-07-07T07:39:25.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\ASDS_dev.runtimeconfig.json">
       <PackagePath>ASDS_dev.runtimeconfig.json</PackagePath>
-      <Modified>2025-07-03T04:59:36.370</Modified>
+      <Modified>2025-07-07T06:39:08.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\ASDS_dev.dll">
       <PackagePath>ASDS_dev.dll</PackagePath>
-      <Modified>2025-07-04T12:54:08.424</Modified>
+      <Modified>2025-07-07T09:29:07.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>ASDS_dev.exe</PackagePath>
-      <Modified>2025-07-04T12:54:08.424</Modified>
+      <Modified>2025-07-07T09:29:07.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mactu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -412,7 +412,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\New folder\ASDS_dev\ASDS_dev\bin\x64\Debug\net8.0-windows10.0.19041.0\ASDS_dev.deps.json">
       <PackagePath>ASDS_dev.deps.json</PackagePath>
-      <Modified>2025-07-03T04:59:36.340</Modified>
+      <Modified>2025-07-07T06:39:08.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mactu\.nuget\packages\colorcode.winui\2.0.13\lib\net5.0-windows10.0.18362\ColorCode.WinUI.pri">
       <PackagePath>ColorCode.WinUI.pri</PackagePath>

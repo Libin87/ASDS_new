@@ -48,7 +48,7 @@ namespace ASDS_dev.Pages.UserManagement
                         var tableCommand = connection.CreateCommand();
                         tableCommand.CommandText = @"
                     CREATE TABLE IF NOT EXISTS TBL_Users (
-                        ID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        ID INTEGER PRIMARY KEY AUTOINCREMENT default 999,
                         UserID TEXT NOT NULL,
                         FirstName TEXT NOT NULL,
                         LastName TEXT NOT NULL,
@@ -239,19 +239,21 @@ namespace ASDS_dev.Pages.UserManagement
             public bool IsSuspended { get; set; }
             public string UserRole { get; set; }
             public string Status { get; set; }
+            public string ID { get; set; }
         }
 
         public static LoginResult ValidateLogin(string userId, string password)
         {
             var result = new LoginResult();
-
-            ExecuteWithRetry(() =>
+            lock (dbLock)
+            {
+                ExecuteWithRetry(() =>
             {
                 using (var connection = new SqliteConnection($"Data Source={dbPath}"))
                 {
                     connection.Open();
                     var command = connection.CreateCommand();
-                    command.CommandText = "SELECT Password, UserRole, Status, FailedAttempts FROM TBL_Users WHERE UserID = @UserID";
+                    command.CommandText = "SELECT ID, Password, UserRole, Status, FailedAttempts FROM TBL_Users WHERE UserID = @UserID";
                     command.Parameters.AddWithValue("@UserID", userId);
 
                     using (var reader = command.ExecuteReader())
@@ -265,6 +267,8 @@ namespace ASDS_dev.Pages.UserManagement
                         string storedPassword = reader["Password"].ToString();
                         result.UserRole = reader["UserRole"].ToString();
                         result.Status = reader["Status"].ToString();
+                        result.ID = reader["ID"].ToString();
+
                         int failedAttempts = Convert.ToInt32(reader["FailedAttempts"]);
 
                         if (result.Status.Equals("Suspended", StringComparison.OrdinalIgnoreCase))
@@ -301,9 +305,12 @@ namespace ASDS_dev.Pages.UserManagement
                             updateCmd.ExecuteNonQuery();
                             result.IsSuccess = true;
                         }
+
                     }
                 }
+
             });
+            }
 
             return result;
         }

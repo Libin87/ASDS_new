@@ -157,10 +157,10 @@
 
         <Grid Grid.Row="3" Margin="10">
             <StackPanel  Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10" Spacing="20">
-                <Button x:ConnectionId='3' x:Name="PrevPageButton" Content="&#xE72B;" FontFamily="Segoe MDL2 Assets" 
+                <Button x:ConnectionId='3' x:Name="PrevPageButton"                              Content="&#xE72B;" FontFamily="Segoe MDL2 Assets" 
              Width="40" Height="40" Background="White"/>
                 <TextBlock x:ConnectionId='4' x:Name="PageInfoText" Text="Page 1 of 1" FontWeight="SemiBold" FontSize="14" VerticalAlignment="Center"/>
-                <Button x:ConnectionId='5' x:Name="NextPageButton" Content="&#xE72A;" FontFamily="Segoe MDL2 Assets" 
+                <Button x:ConnectionId='5' x:Name="NextPageButton"                              Content="&#xE72A;" FontFamily="Segoe MDL2 Assets" 
              Width="40" Height="40" Background="White"/>
             </StackPanel>
             <Button x:ConnectionId='2' HorizontalAlignment="Right"
